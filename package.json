@@ -1,5 +1,7 @@
 {
-  "name": "react-workshop",
+  "name": "reddit-react-reader",
+  "description": "reddit reader created with React and Redux for learning purposes",
+  "author": "Manuel abrante",
   "version": "0.1.0",
   "private": true,
   "scripts": {
