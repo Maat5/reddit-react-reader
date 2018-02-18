@@ -1,0 +1,56 @@
+.TopicsScreen {
+  padding: 20px;
+}
+
+.TopicsScreen ul {
+  list-style: none;
+  padding-left: 0;
+  width: 640px;
+  margin: auto;
+  border: 1px solid #aaa;
+}
+
+.TopicsScreen li {
+  text-align: left;
+  border-bottom: 1px solid #aaa;
+  cursor: pointer;
+}
+
+.TopicsScreen li > div {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.TopicsScreen li > div .content-wrapper {
+  margin-left: 20px;
+  widows: 100%;
+}
+
+.TopicsScreen li > div img {
+  min-width: 150px;
+  min-height: 150px;
+  max-width: 150px;
+  max-height: 150px;
+}
+
+.TopicsScreen li h3 {
+  padding: 10px 0 0 0;
+  margin: 0;
+}
+
+.TopicsScreen li p {
+  padding: 10px 0;
+  margin: 0;
+}
+
+.NextScreen {
+  margin-top: 10px;
+  border: 0;
+  padding: 10px;
+  color: #FFF;
+  background-color: #53D2F0;
+  cursor: pointer;
+  border-radius: 2px;
+  font-weight: 600;
+}
